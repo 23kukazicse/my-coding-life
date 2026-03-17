@@ -15,15 +15,14 @@ int main()
 return 0;
 }
 */
-
 //=================================================
-
 /*while loop
 #include "stdio.h"
 int main()
 {
     int i=1,j=1,n=0; // i is for line(row) and j is for column
 	printf("input last number for printing number pyramid: ");
+	scanf("%d",&n);
 	scanf("%d",&n);
 
     while (i<=n) {
@@ -59,7 +58,7 @@ return 0;
     }while (i<=n);
     }
 
-int main()
+int main(void)
 {
     int i=1,j=1,n=0; // i is for line(row) and j is for column
 	printf("input last number for printing number pyramid: ");
